@@ -11,3 +11,75 @@
 }
 
 /* General CSS tugadi */
+/* Navbar CSS boshlandi */
+
+nav {
+display: flex;
+padding-left: 6.5rem;
+padding-right: 6.5rem;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+background: #EFFEF5; 
+color: #193C3F;
+}
+
+.menu {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.menu_logo {
+  width: 4rem;
+}
+
+.menu_part {
+  display: flex;
+  padding-left: 8rem;
+}
+.menu_part li {
+  margin-right: 4rem;
+  font-size: 1.4rem;
+  list-style: none; 
+  
+}
+
+.menu_part li a{
+  text-decoration: none;
+}
+
+
+.phone {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 6.5rem;
+}
+.phone_logo1 {
+width: 3.2rem;
+height: 3.2rem;
+border:1px solid  #3CB27F;
+border-radius: 50%;
+margin-left: 3rem;
+margin-top: 0.5rem;
+}
+.phone_logo2 {
+  
+  margin: 11px;  
+}
+ .phone_number {
+  
+ }
+
+.btn {
+border-radius: 0.4rem;
+line-height: 1.1rem;
+display: flex;
+align-items: center;
+margin:1.9rem;
+padding: 13px 1.9rem;
+border:1px solid #3CB27F;
+background: #EFFEF5; 
+}
